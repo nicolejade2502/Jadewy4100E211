@@ -1,0 +1,169 @@
+<html><head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Typewriter;
+  padding: 10px;
+  background: #6F8FAF;
+}
+
+/* Header/A Life in Tainan*/
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ADD8E6;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #4682B4;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #6F8FAF;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #4682B4;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #ADD8E6;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:#4682B4;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><p style="font-family:'Papyrus'">A Life In Tainan</p></h1>
+  <h3><p style="font-family:'Copperplate Gothic Bold'">Nicole Jade Fernandez</p></h3>
+  <h3><p style="font-family:'Copperplate Gothic Bold'">4100E211</p></h3>
+  <h3><p style="font-family:'Copperplate Gothic Bold'">潔妮可</p></h3>
+</div>
+
+<div class="topnav">
+  <a href="#">HTML</a>
+  <a href="#">CSS</a>
+  <a href="#">JAVASCRIPT</a>
+  <a href="#" style="float:right"></a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><p style="font-family:'Courier New'">NICOLE JADE D.FERNANDEZ</p></h2>
+      <h5></h5>
+	  <h5></h5>
+      <div class="" style="height:200px;">Image</div>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="card">
+      <h2><p style="font-family:'Papyrus'">Favorite Movie</h2>
+      <h5>Title: Twilight</h5>
+      <div class="fakeimg" style="height:400px;">Image</div>
+      <p>RELEASE:2008</p>
+      <p>Author: Stephanie Meyer</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2><p style="font-family:'Papyrus'">My Favorite Foods</h2>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Braso de mercedes</p>
+    </div>
+    <div class="card">
+      <h3><p style="font-family:'Papyrus'">My Playlist</h3>
+      <div class="fakeimg"><p></p></div> 
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+	<div class="fakeimg" style="height:200px;"></div>
+      <h3>My Github</h3>
+      <p><a target="_blank" href="https://github.com/nicolejade2502/Jadewy4100E211">Jadewy 4100E211</a></h6></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2><p style="font-family:'Bradley Hand ITC'">Qoute:'Flow like a river be strong like a waves'</h2></p>
+</div>
+
+
+
+
+
+</body></html>
